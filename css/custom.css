@@ -16,7 +16,6 @@ p {
   font-size: 12px;
 }
 
-
 #mainNav {
   background-color: white;
   -webkit-transition: all 1s;
@@ -39,6 +38,31 @@ p {
   text-transform: uppercase;
 }
 
+.dropdown-toggle {
+  font-size: 11px;
+  color: #4b4b4b;
+  background-color: transparent;
+  border-color: transparent;
+  outline: none;
+}
+
+.dropdown-toggle:hover {
+  background-color: transparent;
+  border-color: transparent;
+  outline: none;
+}
+
+.dropdown-toggle:focus {
+  background-color: transparent;
+  border-color: transparent;
+  outline: none;
+}
+
+.dropdown-toggle:active {
+  background-color: transparent;
+  border-color: transparent;
+  outline: none;
+}
 
 @media (min-width: 992px) {
   #mainNav {
@@ -212,6 +236,39 @@ section.fourth {
   section.fourth .fourth-content h2 {
     font-size: 80px;
   }
+}
+
+/* PROJECT1 */
+
+section.project1 {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background: #222222;
+  color: #fff;
+}
+
+/* PROJECT2 */
+
+section.project2 {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background: #777;
+  color: #fff;
+}
+
+/* PROJECT3 */
+
+section.project3 {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background: #222222;
+  color: #fff;
 }
 
 /* FIFTH */
