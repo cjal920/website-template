@@ -220,24 +220,6 @@ section.third  {
   color: #fff;
 }
 
-/* FOURTH */
-
-section.fourth {
-  position: relative;
-  width: 100%;
-  padding-top: 150px;
-  padding-bottom: 100px;
-  background: #9b9b9b;
-  color: #fff;
-}
-
-
-@media (min-width: 768px) {
-  section.fourth .fourth-content h2 {
-    font-size: 80px;
-  }
-}
-
 /* PROJECT1 */
 
 section.project1 {
@@ -269,6 +251,23 @@ section.project3 {
   padding-bottom: 100px;
   background: #222222;
   color: #fff;
+}
+
+/* FOURTH */
+
+section.fourth {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background: #9b9b9b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  section.fourth .fourth-content h2 {
+    font-size: 80px;
+  }
 }
 
 /* FIFTH */
