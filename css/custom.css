@@ -38,30 +38,37 @@ p {
   text-transform: uppercase;
 }
 
-.dropdown-toggle {
-  font-size: 11px;
+.dropdown-toggle  {
+  cursor: pointer;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
   color: #4b4b4b;
   background-color: transparent;
-  border-color: transparent;
+  border: none;
+}
+
+.dropdown-toggle:focus {
   outline: none;
 }
 
 .dropdown-toggle:hover {
-  background-color: transparent;
-  border-color: transparent;
-  outline: none;
+  color: #fff;
 }
 
-.dropdown-toggle:focus {
+/* .dropdown-menu  {
   background-color: transparent;
-  border-color: transparent;
-  outline: none;
+} */
+
+.nav-link  {
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #4b4b4b;
 }
 
-.dropdown-toggle:active {
-  background-color: transparent;
-  border-color: transparent;
-  outline: none;
+.nav-link:hover  {
+  color: #000;
 }
 
 @media (min-width: 992px) {
@@ -82,12 +89,12 @@ p {
     color: #222222;
   }
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    color: #1da1f2;
+    color: #fff;
   }
  
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-    color: #1da1f2;
+    color: #fff;
   }
 }
 
@@ -250,6 +257,17 @@ section.project3 {
   padding-top: 150px;
   padding-bottom: 100px;
   background: #222222;
+  color: #fff;
+}
+
+/* SECTION TABS */
+
+section.sectabs {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background: #000;
   color: #fff;
 }
 
